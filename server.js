@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the Tech Evangelism Platform - Your journey starts here!');
+    res.send('Welcome to the Tech Evangelism Platform - Your adventure begins here!');
 });
 
 app.listen(PORT, () => {
