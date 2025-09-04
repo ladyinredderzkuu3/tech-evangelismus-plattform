@@ -8,9 +8,9 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Willkommen zur Tech-Evangelismus Plattform!');
+    res.send('Welcome to the Tech Evangelism Platform!');
 });
 
 app.listen(PORT, () => {
-    console.log(`Server läuft auf http://localhost:${PORT}`);
+    console.log(`Server running at http://localhost:${PORT}`);
 });
