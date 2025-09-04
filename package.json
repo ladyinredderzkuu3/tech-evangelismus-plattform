@@ -1,6 +1,6 @@
 {
   "name": "tech-evangelismus-plattform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eine Plattform für Tech-Enthusiasten und Entwickler.",
   "main": "index.js",
   "scripts": {
